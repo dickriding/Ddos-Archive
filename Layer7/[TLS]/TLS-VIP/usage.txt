@@ -1,0 +1,89 @@
+--------------------------
+Made by Ciapak with love <3
+--------------------------
+
+Usage: node tls.js [V1/V2] [HOST] [TIME] [LICENSE]
+
+
+Installation:
+
+1. curl -s https://deb.nodesource.com/setup_16.x | sudo bash
+2. sudo apt install nodejs -y
+3. node -v
+
+After 3nd step it should show 16+ if its shows smaller then 16 search on internet how to install nodejs 16 
+
+Additional parametrs: 
+
+Example: --proxy_apis_file=#'apis.txt' | If you would like to use your own apis to scrape proxies every attack you can define txt file with them each line is api to scrape <3
+Example: --proxy_scrape=#'false' | With this you can disable auto scraping from all apis it will only take proxies from http.txt and wont replace them with new ones
+Example: --method=#'RANDOM' | That's request method ex: 'GET' 'POST' 'PUT' etc... but you can also type 'RANDOM' and it will use random request method 
+Example: --cookie=#'xD' | You can add cookies to every request
+Example: --data_post=#'xD' | You can post data if you use 'POST' request method
+Example: --rps=#'120' | Requests per secound! (Default 64)
+Example: --threads=#'2' | Threads ( X + 1 Default one)
+Example: --referer=#'https://example.com/' | Referer what should i say more ;-;
+
+Example: --spoofed=#'1' | 1 = Enabled / 0 = Disabled (Default: 0) [ On normal some headers are spoofed but if you enable this param requests are going to be spoofed fully with ips that were put into ips.txt file but
+								    it requires you to follow steps that are at the end of this file! ]
+
+Example: --g_maxredirects=#'5' | Allows you to control how many redirects each request will allow for
+Example: --g_cloudflaretimeout=#'5000' | Allows you to control cloudflare timeout!
+Example: --g_cloudflaretimeoutmax=#'30000' | Allows you to control max cloudflare timeout!
+Example: --g_challengestosolve=#'5' | Allows you to control how many challenges it should try to solve when they will show up ( Remember it isn't browser method! )
+
+Example: --f_keepAlive=#'true' | Keep sockets around even when there are no outstanding requests, so they can be used for future requests without having to reestablish a TCP connection. Defaults to true
+Example: --f_keepAliveMsecs=#'50000' | When using the keepAlive option, specifies the initial delay for TCP Keep-Alive packets. Ignored when the keepAlive option is false or undefined. Defaults to 50000.
+Example: --f_maxSockets=#'Infinity' | Maximum number of sockets to allow per host. Defaults to Infinity.
+	
+
+
+ONLY FOR V1
+
+Example: --http_ver=#'RANDOM' | Sets http version that will be used can be: 1.2 1.1 etc but if you type 'RANDOM' it will use 1.2 and 1.1 ( Default: RANDOM )
+		
+
+-- CUSTOM HEADERS --
+
+If you would like to edit some headers you can go to folder: Headers and there you will finds files with names ex: Header[accept-language] will response for: accept-language header! ( Each line = 1 value )
+
+When you leave file / files empty it will take default values from script <3 
+
+-- IMPORTANT ASF --
+
+IT ISN'T BUILD FOR HUGE AMMOUNTS ON DSTATS!
+
+This method can't be patched by cloudflare why ? Cuz they would need to somehow check by camera that real dude is opening specyfic site xD 
+
+Method is emulating 1:1 normal user browsing it have HIGH Bypassity rate only thing that can fuck up method is proxies if you don't have good proxies then don't think about getting huge ammounts past sites
+
+
+
+
+
+
+
+
+
+-- HOW TO MAKE SPOOFED PARAM WORK! --
+
+1. Login to your VPS via SSH (command line).
+2. Enter the following command:
+
+sudo nano /etc/sysctl.conf
+
+3. Move down to the bottom of sysctl file and add the following lines:
+
+net.ipv4.conf.all.send_redirects = 0  
+net.ipv4.conf.default.send_redirects = 0  
+net.ipv4.conf.<your-virtual-interface>.send_redirects = 0  
+net.ipv4.<your-virtual-interface>.rp_filter=0
+
+net/unix/tcp_window_scaling = 1
+
+4. Press “Ctrl + X” to save the file and exit nano. Then, enter the following commands:
+
+sudo sysctl -p  iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+
+5. Restart your VPS via SSH (command line). Enter this command:
+sudo shutdown -r now
