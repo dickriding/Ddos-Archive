@@ -1,12 +1,3 @@
-/* 
-
-poc of disabling vac for ovh made by googleadmin -- downing ovh's spoofed
-so ovh checks your server per icmp if its down or not, if we fake icmp packets from our target to ovh's vac the server will stay unprotected, yep
-
-
-16.08.2021 // dd.mm.yyyy , last checked might be fixed
-*/
-
 #include <unistd.h>
 #include <time.h>
 #include <sys/types.h>
@@ -331,7 +322,6 @@ int main(int argc, char *argv[ ])
 {
         if(argc < 6){
         fprintf(stdout, "Usage: %s <target> <port> <threads> <pps, -1 = no limit> <time>\n", argv[0]);
-        fprintf(stdout, "script made by googleadmin\n");
         exit(-1);
         }
         fprintf(stdout, "all parameters accepted, initiating flood.\n");

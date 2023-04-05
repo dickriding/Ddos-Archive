@@ -1,6 +1,4 @@
-/*
-        This is released under the GNU GPL License v3.0, and is allowed to be used for cyber warfare. ;)
-*/
+
 #include <time.h>
 #include <pthread.h>
 #include <unistd.h>
