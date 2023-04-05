@@ -1,0 +1,87 @@
+IPDENY.COM COPYRIGHT NOTICE
+
+Copyright (C) 2005-2014 by IPDeny.com project. All Rights Reserved.
+
+By using our site, you agree to our Terms of Service (TOS) and 
+Fair Usage Limits Policy.
+
+If using IPDeny.com IP zone files, please feel free to use the 
+following statements to link back to IPDENY.COM: 
+"Powered by IPDENY.COM IP database." or "Some parts of this web 
+site are powered by IPDENY.COM" hyperlinking IPDENY.COM to our 
+web site http://www.ipdeny.com 
+
+More details available at our link back page.
+
+PROPRIETARY RIGHTS TO CONTENT
+
+IPDENY.COM web site content, including but not limited to text, 
+photographs, video, graphics, software, music, sound, or other
+material contained on IPDENY.COM web site is protected under
+the laws of copyright, trademark, patent, unfair competition
+or other applicable laws. IPDENY.COM web site users may NOT
+reproduce, distribute, or create derivative works from this
+Content without the express written authorization to do so
+by IPDENY.COM
+
+YOU MAY NOW RE-DISTRIBUTE OUR IP ZONE FILES. BUT YOU SHOULD KEEP
+THIS COPYRIGHT.TXT FILE INTACT AND DISTRIBUTE IT WITH OUR
+ZONE FILES OR FILE ARCHIVES. WE ALSO WELCOME ANY LINKS BACK TO OUR
+SITE WWW.IPDENY.COM
+
+YOU CANNOT USE IPDENY.COM COUNTRY IP DATA FOR SPAMMING, 
+OTHER BULK ADVERTISING AND ILLEGAL ACTIVITIES.
+
+IF YOU OFFER WEB BASED IP TO COUNTRY SERVICE USING OUR IP COUNTRY
+BLOCK FILES A LINK BACK TO IPDENY.COM IS REQUIRED.
+
+Some parts of this software/IP database distribution are derived from
+the APNIC, LACNIC, ARIN, AFRINIC and RIPE IP databases. We have listed 
+registry copyright details below.
+
+APNIC conditions of use
+
+The files are freely available for download and use on the condition 
+that APNIC will not be held responsible for any loss or damage arising
+from the application of the information contained in these reports.
+
+APNIC endeavours to the best of its ability to ensure the accuracy of 
+these reports; however, APNIC makes no guarantee in this regard.
+
+In particular, it should be noted that these reports seek to indicate 
+the country where resources were first allocated or assigned. It is not 
+intended that these reports be considered as an authoritative statement 
+of the location in which any specific resource may currently be in use.
+
+
+Copyright (c) American Registry for Internet Numbers. All rights reserved.
+
+The ARIN WHOIS data is for Internet operational or technical research
+purposes pertaining to Internet operations only. It may not be used for
+advertising, direct marketing, marketing research, or similar purposes.
+Use of the ARIN WHOIS data for these activities is explicitly forbidden.
+ARIN requests to be notified of any such activities or suspicions thereof.
+
+RIPE database copyright 
+
+The information in the RIPE Database is available to the public for agreed 
+Internet operation purposes, but is under copyright. The copyright 
+statement is:
+
+"Except for agreed Internet operational purposes, no part of this 
+publication may be reproduced, stored in a retrieval system, or
+transmitted, in any form or by any means, electronic, mechanical, 
+recording, or otherwise, without prior permission of the RIPE NCC on 
+behalf of the copyright holders. Any use of this material to target 
+advertising or similar activities is explicitly forbidden and may 
+be prosecuted. The RIPE NCC requests to be notified of any such 
+activities or suspicions thereof."
+
+LACNIC database copyright
+
+Copyright (c) Latin American and Caribbean IP address Regional 
+Registry. All rights reserved.
+
+AFRINIC database copyright
+
+Copyright (c) AFRINIC. All rights reserved.
