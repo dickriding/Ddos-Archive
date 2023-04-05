@@ -1,0 +1,1 @@
+apt update; apt upgrade; apt install nodejs; apt install npm; npm i fs; npm i url; npm i http; npm i tls; npm i os;
