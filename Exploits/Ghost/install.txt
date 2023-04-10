@@ -1,0 +1,42 @@
+git clone https://github.com/EntySec/Ghost.git
+cd Ghost
+python3 setup.py install
+ghost
+connect 'ip'
+interact 'id'
+ex :
+connect 35.135.238.69
+interact 0
+-- 
+help >
+Core Commands:
+
+    Command    Description
+    -------    -----------
+    clear      Clear terminal window.
+    exit       Exit current device.
+    help       Show available commands.
+
+
+Settings Commands:
+
+    Command     Description
+    -------     -----------
+    activity    Show device activity information.
+    battery     Show device battery information.
+    wifi        Set device wifi service state.
+
+
+Manage Commands:
+
+    Command       Description
+    -------       -----------
+    download      Download file from device.
+    keyboard      Interact with device keyboard.
+    list          List directory contents.
+    openurl       Open URL on device.
+    press         Press device button by keycode.
+    screenshot    Take device screenshot.
+    shell         Execute shell command on device.
+    sleep         Put device into sleep mode.
+    upload        Upload file to device.
